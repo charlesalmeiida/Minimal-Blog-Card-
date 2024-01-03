@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: #fafaf9;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 16px 16px 20px 16px;
+  margin-top: 164px;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px 10px 0 10px;
+  max-width: 368px;
+  border-bottom: 1px solid #e5eaf0;
+  box-shadow: 6px 6px 35px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card span {
+  background-color: #e6d6fc;
+  color: #883ae1;
+  border-radius: 40px;
+  padding: 6px 16px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #20293a;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #6c727f;
+}
+
+.card img {
+  border-radius: 10px;
+  max-width: 336px;
+  margin-bottom: 16px;
+}
+
+.card-author {
+  margin: 0 auto;
+  background-color: white;
+  max-width: 368px;
+  padding: 20px 16px 20px 16px;
+  box-shadow: 0px 13px 17px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 16px 16px;
+}
+
+.card-author p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6c727f;
+  opacity: 80%;
+}
